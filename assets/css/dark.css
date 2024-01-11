@@ -1,0 +1,44 @@
+.darkmode {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.darkmode #main::before {
+	content: "";
+    background: url("../img/black.png") repeat fixed;
+    position: fixed;
+    z-index: -4;
+    top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+    opacity: 40%;
+}
+
+.darkmode .title-a, 
+.darkmode .subtitle-a, 
+.darkmode .title-left, 
+.darkmode .title-s,
+.darkmode .title-s-val,
+.darkmode .skill-mf span,
+.darkmode .w-title,
+.darkmode .project-info h4,
+.darkmode .Close:hover, 
+.darkmode .Close:focus,
+.darkmode .card-title a,
+.darkmode .more-info .info h4,
+.darkmode .more-info .info p,
+.darkmode .navbar-mobile a,
+.darkmode .lead {
+    color: white;
+}
+
+.darkmode .box-shadow-full, 
+.darkmode .service-box,
+.darkmode .work-box,
+.darkmode .project-info,
+.darkmode .card-blog,
+.darkmode .more-info .info,
+.darkmode .navbar-mobile ul {
+    background-color:rgb(53, 53, 53);
+}
